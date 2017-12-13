@@ -1,0 +1,202 @@
+/*
+/
+Author: @ju4nr3v0l at lm Team
+Description: css for ET Plugin
+Version: 1.0.0
+*/
+.galeriatumb span {
+	color:red;
+	font-size: 14px;
+    width: 100%;
+    transition:ease 0.2s;
+}
+
+.galeriatumb span:hover {
+	font-size: 16px;
+    cursor: pointer;
+
+}
+
+.galleryContainer{
+	width:100%; 
+	height: auto;
+}
+
+.galeriatumb {
+	width: 18%;
+	display:inline-block;
+	padding: 1%;
+}
+
+.button-secondary{
+	padding: 1%;
+}
+
+.time, .mins, .meridian {
+	margin: 0!important;
+}
+
+.foto-text{
+	width: 100%;
+}
+.semana{
+	position: relative;
+	display: block;
+	width:100%;
+}
+
+.dia{
+	position: relative;
+	display: inline-block;
+	width: 13.28%;
+	border: 1px solid #F1F1F1;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.dia:hover{
+	cursor: pointer;
+	background-color: #F1F1F1;
+	border: 1px solid #888888;
+}
+
+.especial-semana{
+	position: relative;
+	display: block;
+	width:100%;
+}
+
+.especial-semana1{
+	position: relative;
+	display: block;
+	width:100%;
+}
+
+.especial-semana2{
+	position: relative;
+	display: block;
+	width:100%;
+}
+
+.especial-box{
+	
+	position: relative;
+	display: inline-block;
+	width: 2%;
+	border: 2px solid #F1F1F1;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 46px 0 45px;
+	text-align: center;
+	height: 15px;
+}
+
+.especial1-box{
+	
+	position: relative;
+	display: inline-block;
+	width: 2%;
+	border: 2px solid #F1F1F1;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 46px 0 45px;
+	text-align: center;
+	height: 15px;
+}
+
+.especial2-box{
+	
+	position: relative;
+	display: inline-block;
+	width: 2%;
+	border: 2px solid #F1F1F1;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 46px 0 45px;
+	text-align: center;
+	height: 15px;
+}
+
+.especial-box:hover{
+	cursor: pointer;
+	background-color: #1E8CBE;
+	border: 1px solid #ffffff;
+}
+
+.especial1-box:hover{
+	cursor: pointer;
+	background-color: #1E8CBE;
+	border: 1px solid #ffffff;
+}
+
+.especial2-box:hover{
+	cursor: pointer;
+	background-color: #1E8CBE;
+	border: 1px solid #ffffff;
+}
+
+.horario-general{
+	position: relative;
+	display: block;
+	width:100%;
+}
+
+.horario-normal{
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	
+}
+.horario-especial{
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	
+}
+
+.horario-especial1{
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	
+}
+
+.horario-especial2{
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	
+}
+
+
+.seleccionado{
+
+	cursor: pointer;
+	background-color: #F1F1F1;
+	border: 1px solid #888888;
+
+
+}
+
+.especial-box-seleccionada{
+	cursor: pointer;
+	background-color: #1E8CBE;
+	border: 1px solid #ffffff;
+}
+
+.especial1-box-seleccionada{
+	cursor: pointer;
+	background-color: #1E8CBE;
+	border: 1px solid #ffffff;
+}
+
+.especial2-box-seleccionada{
+	cursor: pointer;
+	background-color: #1E8CBE;
+	border: 1px solid #ffffff;
+}
+
+/*.prev, .next{
+	background: none!important;
+	border:none!important;
+}*/
