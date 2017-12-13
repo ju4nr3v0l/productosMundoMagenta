@@ -23,18 +23,7 @@ define( 'MM_PLUGIN_ABS_PATH', plugin_dir_path( __FILE__ ) );
  */
 function mm_nt_scripts() {
 	wp_enqueue_script( 'jquery' );
-	wp_enqueue_script( 'jquery-ui-datepicker' );
-
-	wp_register_script( 'functions', MM_PLUGIN_PATH . '/js/functions.js', array( 'jquery', 'media-upload', 'thickbox' ), true );
-	wp_enqueue_script( 'functions' );
-	wp_register_script( 'timepicker', MM_PLUGIN_PATH . '/js/timepicki.js', array( 'jquery' ) );
-	wp_enqueue_script( 'timepicker' );	
-	wp_register_script( 'datetimepicker', MM_PLUGIN_PATH . 'js/jquery.datetimepicker.js', array( 'jquery' ) );
-	wp_enqueue_script( 'datetimepicker' );	
-	wp_register_script( 'datetimepickerfull', MM_PLUGIN_PATH . 'js/jquery.datetimepicker.full.js', array( 'jquery' ) );
-	wp_enqueue_script( 'datetimepickerfull' );	
-	wp_register_script( 'colorPicker', MM_PLUGIN_PATH . 'js/spectrum.js', array( 'jquery' ) );
-	wp_enqueue_script( 'colorPicker' );	
+	
 	wp_enqueue_media();
 }
 
